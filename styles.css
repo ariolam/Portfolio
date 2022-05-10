@@ -50,6 +50,12 @@ p {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+.contact-link:hover {
+  color: aliceblue;
+}
+.about-link:hover {
+  color: var(--primary-color);
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -74,13 +80,17 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
 }
+.primary-link:hover {
+  color: aliceblue;
+}
+
 @media (max-width: 600px) {
   h1,
   h2 {
-    font-size: 30px;
+    font-size: 45px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 23px;
   }
   .email-link {
     font-size: 20px;
